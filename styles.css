@@ -1,0 +1,9 @@
+/* Definición de estilos */
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
