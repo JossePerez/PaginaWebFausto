@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#232323;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-menu ul {
+    list-style: none!important;
+    padding: 0;
+}
+
+.div-menu li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.div-menu a{
+    text-decoration:none;
+    color: white;
+}
+
+.div-menu li:hover{
+    background-color: rgb(13, 126, 231);
+}
