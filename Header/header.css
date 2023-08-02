@@ -26,6 +26,10 @@ header{
     font-size: 11px;
 }
 
+.div-derechos span{
+    font-size: 14px;
+}
+
 .div-nombre{
     padding-top: 15px;
 }
