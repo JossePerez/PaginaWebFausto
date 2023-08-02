@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#232323;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+}
+
+.div-header-nombre{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.div-derechos{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+}
+
+.div-derechos p{
+    font-size: 11px;
+}
+
+.div-nombre{
+    padding-top: 15px;
+}
+
+.div-nombre p{
+    text-align: center;
+}
+
+span{
+    font-weight: 800;
+    font-size: 15px;
+}
