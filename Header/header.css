@@ -23,7 +23,7 @@ header{
 .div-menu li{
     display: inline-block;
     margin: 0 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .div-menu a{
@@ -33,4 +33,9 @@ header{
 
 .div-menu li:hover{
     background-color: rgb(13, 126, 231);
+}
+
+.div-nombre{
+    display: grid;
+    align-content: space-evenly;
 }
