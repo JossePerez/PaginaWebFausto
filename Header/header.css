@@ -13,6 +13,7 @@ header{
 .div-header{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .div-menu ul {
@@ -38,4 +39,26 @@ header{
 .div-nombre{
     display: grid;
     align-content: space-evenly;
+}
+
+.div-foto img{
+    width: 100%;
+}
+
+.imagen-con-texto {
+    position: relative;
+    text-align: center; /* Alinear el contenido al centro */
+    /* Ajustar el tamaño de la figura según el tamaño de la imagen */
+}
+
+.texto-imagen {
+    position: absolute;
+    bottom: 0; /* Colocar el texto en la parte inferior de la figura */
+    left: 50%; /* Centrar horizontalmente el texto */
+    transform: translateX(-50%); /* Centrar horizontalmente usando desplazamiento */
+    font-size: 18px;
+    color: #fff;
+    
+    padding: 10px 20px; /* Espacios de relleno alrededor del texto */
+    /* Puedes ajustar los estilos según tus necesidades */
 }
