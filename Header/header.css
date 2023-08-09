@@ -1,18 +1,26 @@
 body{
     margin: 0;
     padding: 0;
+    position: relative; /* Establece la posición relativa en el cuerpo */
+    min-height: 100vh;
 }
 
 header{
-    background-color:#232323;
-    color: white;
+    /*background-color:#232323;*/
+    background-color: rgba(0,0,0,0);
+    color: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    position: absolute; /* Establece la posición absoluta en el pie de página */
+    bottom: 0; /* Coloca el pie de página en la parte inferior */
+    width: 100%
 }
 
 .div-header{
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 2;
     
 }
 
@@ -29,36 +37,85 @@ header{
 
 .div-menu a{
     text-decoration:none;
-    color: white;
-}
-
-.div-menu li:hover{
-    background-color: rgb(13, 126, 231);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
 
 .div-nombre{
     display: grid;
     align-content: space-evenly;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .div-foto img{
     width: 100%;
 }
 
-.imagen-con-texto {
-    position: relative;
-    text-align: center; /* Alinear el contenido al centro */
-    /* Ajustar el tamaño de la figura según el tamaño de la imagen */
-}
+
 
 .texto-imagen {
     position: absolute;
-    bottom: 0; /* Colocar el texto en la parte inferior de la figura */
+    bottom: 40%; /* Colocar el texto en la parte inferior de la figura */
     left: 50%; /* Centrar horizontalmente el texto */
     transform: translateX(-50%); /* Centrar horizontalmente usando desplazamiento */
-    font-size: 18px;
-    color: #fff;
+    font-size: 55px;
+    color: #A58539;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200!important;
+
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.1em;
     
     padding: 10px 20px; /* Espacios de relleno alrededor del texto */
     /* Puedes ajustar los estilos según tus necesidades */
 }
+
+.texto-imagen p{
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+figure img{
+    height: 54rem;
+    width: 100%;
+    filter: brightness(0.9);
+    position: relative;
+    bottom: 100px;
+    
+}
+
+/* ... Tus estilos existentes ... */
+
+/* Estilo para el menú cuando se hace scroll */
+.div-header.scrolled {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .div-header.scrolled .div-menu a {
+    color: white;
+  }
+  
+  .div-header.scrolled .div-menu li:hover {
+    background-color: transparent;
+  }
+  
+  /* ... Resto de tus estilos ... */
+  
+  
+
