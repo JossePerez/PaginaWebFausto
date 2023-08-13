@@ -9,35 +9,39 @@
     <link rel="stylesheet" href="../Footer/footer.css">
 </head>
 <body>
-
     <div id="header-container"></div>
-    <!-- Resto de tu contenido de la página -->
 
+    <h1>Bodas Profesionales</h1>
+
+    <div class="div-columna" id="image-container">
+    </div>
+    
+    <div id="div-header-nombre" ></div>
+
+    <div id="div-header-nombre"></div>
+
+    <div id="footer-container"></div>
+
+    <!--Script de JavaScript-->
     <script>
         fetch('../Header/header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header-container').innerHTML = data;
             });
+
+        fetch('../Footer/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
     </script>
 
-<script>
-    fetch('../Footer/footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('div-header-nombre').innerHTML = data;
-    })
-</script>
 
-
-    <h1>Bodas Profesionales</h1>
-    <div class="div-columna" id="image-container">
-    </div>
-
-    <div id="div-header-nombre" ></div>
-
+        
     <!--Script de JavaScript-->
     <script src="script.js" ></script>
     <script src="../Header/header.js" ></script>
+
 </body>
 </html>
