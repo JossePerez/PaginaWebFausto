@@ -1,3 +1,9 @@
+/* Agrega el siguiente código al principio de tu archivo PaginaEstilos.css */
+body {
+    margin-bottom: 0rem!important;
+    width: 100%!important;
+}
+
 
 .div-imagen img{
     height: 30rem;
@@ -48,4 +54,39 @@
     filter: brightness(50%);
 }
 
-  
+
+/* ... (otros estilos) ... */
+
+.div-imagen {
+    position: relative;
+    overflow: hidden;
+    height: 30rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+}
+
+/* ... (otros estilos) ... */
+
+/* Agrega estas media queries al final de tu archivo CSS */
+@media (max-width: 768px) {
+    .div-imagen img {
+        height: 20rem;
+        width: 100%;
+    }
+    
+    .div-columna {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image-container {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .div-imagen img {
+        height: 25rem;
+        width: 100%;
+    }
+}

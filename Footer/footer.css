@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Arimo', sans-serif;
 }
 
 footer{
@@ -30,10 +31,6 @@ footer{
     font-size: 14px;
 }
 
-.div-nombre{
-    padding-top: 15px;
-}
-
 .div-nombre p{
     text-align: center;
 }
@@ -41,4 +38,9 @@ footer{
 span{
     font-weight: 800;
     font-size: 15px;
+}
+
+/* Agrega el siguiente código al final de tu archivo footer.css */
+footer {
+    margin-top: 70rem; /* Ajusta el valor según sea necesario */
 }
