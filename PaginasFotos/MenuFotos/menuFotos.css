@@ -4,12 +4,6 @@
     justify-content: center;
     margin: 4rem;
 }
-
-img{
-    width: 10rem;
-    height: 10rem;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -33,7 +27,7 @@ body {
     overflow: hidden;
     transition: transform 0.3s, border-color 0.3s;
     width: 50rem;
-    height: 50rem;
+    height: 40rem;
 }
 
 .div-fotos a:hover {
