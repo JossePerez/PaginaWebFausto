@@ -21,24 +21,24 @@ header{
     background-color: #232323;;
 }
 
-.div-menu ul {
+.div-menu-header ul {
     list-style: none!important;
     padding: 0;
 }
 
-.div-menu li{
+.div-menu-header li{
     display: inline-block;
     margin: 0 10px;
     padding: 20px;
 }
 
-.div-menu a{
+.div-menu-header a{
     text-decoration:none;
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
 
-.div-nombre{
+.div-nombre-header{
     display: grid;
     align-content: space-evenly;
     color: white;
