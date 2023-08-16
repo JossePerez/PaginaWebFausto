@@ -1,4 +1,12 @@
 
+:root{
+    --border-color:linear-gradient(
+        to right,
+        tomato:0%,
+        gold:100%
+    );
+}
+
 body {
     font-family: 'Arimo', sans-serif;
     margin: 0;
@@ -12,7 +20,15 @@ body {
     grid-template-columns: 1.5fr 1fr;
     column-gap: 2rem;
     margin: 4rem;
+
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: white!important;
+    color: black;
+
+    box-shadow: 0px 0px 30px rgb(8, 171, 221);
 }
+
 
 .section-div-informacion {
     display: flex;
@@ -35,6 +51,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .section-contactos {
@@ -72,13 +89,13 @@ h2 {
 }
 
 
-.div-header-contacto {
+.div-header-contacto2 {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.div-header-contacto a {
+.div-header-contacto2 a {
     color: white;
 }
 
@@ -91,3 +108,78 @@ h2 {
 .div-ubicaciones p {
     margin: 0;
 }
+
+.section-divicion {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-div-foto {
+    position: relative;
+}
+
+.card{
+    background-color: var(--border-color);
+    aspect-ratio: 10/16;
+    border-radius: 16px;
+    position: relative;
+}
+
+.section-divicion{
+    background-color: black;
+    border-radius: 12px;
+}
+
+.section-contactos{
+    background-color: white;
+    color: black;
+
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgb(8, 171, 221);
+}
+
+.div-ubicacion2{
+    margin: 4rem;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgb(8, 171, 221);
+}
+span{
+    font-size: 16px;
+}
+
+.nombre-fotografo{
+    color: rgb(8, 171, 221);
+    font-size: 17px!important;
+}
+
+.div-barra{
+    padding-left: 2rem;
+    border-right: 2px solid rgb(8, 171, 221);
+    border-top: 2px solid rgb(8, 171, 221);
+    border-bottom: 2px solid rgb(8, 171, 221);
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.div-header-contacto2, .trabajos-logos, .div-info{
+    padding-left: 2rem;
+    border-left: 2px solid rgb(8, 171, 221);
+    border-top: 2px solid rgb(8, 171, 221);
+    border-bottom: 2px solid rgb(8, 171, 221);
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.logos-dos{
+    padding-bottom: 1rem;
+}
+
