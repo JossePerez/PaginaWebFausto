@@ -63,3 +63,11 @@ section .section-margen{
         margin-left: 5rem!important;
     }
 }
+
+.div-introduccion p{
+    font-size: larger;
+}
+
+footer{
+    margin-top: 0!important;
+}
