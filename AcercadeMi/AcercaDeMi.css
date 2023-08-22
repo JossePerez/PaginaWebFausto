@@ -182,4 +182,11 @@ span{
 .logos-dos{
     padding-bottom: 1rem;
 }
+.div-ubicacion-derecho svg{
+padding-left: 28px;
+}
+
+.div-ubicacion-izquiedo p{
+    padding-left: 5px;
+}
 

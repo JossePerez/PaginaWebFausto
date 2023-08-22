@@ -1,8 +1,7 @@
 body{
-    margin: 0%;
+    margin: 0%!important;
     padding: 0%;
-    background-color: black;
-    color: white;
+    background-color: #111!important;
 }  
 
 section{
@@ -14,15 +13,16 @@ section h1{
     text-align: center;
 }
 
-.section-servicios{
+/*.section-servicios{
     display: flex;
     justify-content: space-around;
-}
+}*/
 
-.section-servicios div{
+.section-servicios{
     width: 15rem;
     height: 15rem;
     padding: 5px;
+    margin: 15px;
 
     background-color: white;
     color: black;
@@ -34,4 +34,32 @@ section h1{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.section-informativa{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgb(8, 171, 221);
+}
+
+section .section-margen{
+    padding: 10%;
+}
+
+.unir{
+    padding: 0!important;
+}
+.unir .img-fluid{
+    min-height: 100%;
+}
+
+.ultima{
+    min-width: 100%!important;
+}
+
+@media (min-width: 1027px) {
+    .div-contenedor-servicios{
+        margin-left: 5rem!important;
+    }
 }
