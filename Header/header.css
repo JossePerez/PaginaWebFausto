@@ -109,6 +109,82 @@ header {
     align-items: center; /* Alinear verticalmente al centro */
 }
 
+@media(max-width:560px){
+    .texto-imagen{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+/* Agrega estilos para el botón o enlace desplegable */
+.div-menu-header .dropdown-btn {
+    display: none;
+    color: #A58539;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Agrega estilos para la lista del menú en dispositivos grandes */
+.div-menu-header ul {
+    list-style: none!important;
+    padding: 0;
+    display: flex;
+}
+
+.div-menu-header li{
+    margin: 0 10px;
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    /* Oculta la lista del menú */
+    .div-menu-header ul {
+        display: none;
+    }
+
+    /* Muestra el botón o enlace desplegable */
+    .div-menu-header .dropdown-btn {
+        display: block;
+    }
+
+/* Agrega estilos para el botón o enlace desplegable */
+.div-menu-header .dropdown-btn {
+    display: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #232323;
+    border-radius: 5px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+
+.div-menu-header .dropdown-btn:hover {
+    color: #232323;
+}
+
+.dropdown-menu.show{
+    display: flex!important;
+    flex-direction: column !important;
+    background-color: #111;
+}
+/* Ajusta los estilos del botón o enlace desplegable en dispositivos pequeños */
+@media(max-width: 768px){
+    .div-menu-header .dropdown-btn {
+        display: block;
+    }
+
+    /* Oculta el menú principal en dispositivos pequeños */
+    .div-menu-header ul {
+        display: none;
+    }
+}
+}
+
+
   
   
 
