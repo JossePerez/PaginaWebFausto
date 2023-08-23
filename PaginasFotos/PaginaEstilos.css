@@ -2,7 +2,7 @@
 body {
     margin-bottom: 0rem!important;
     width: 100%!important;
-    background-color: #111;
+    background-color: #111!important;
 }
 
 
@@ -78,10 +78,50 @@ body {
     .div-columna {
         flex-direction: column;
         align-items: center;
+        margin-top: 60rem;
     }
     
     .image-container {
-        margin-top: 2rem;
+        margin-top: 0rem!important;
+    }
+    
+    .div-contenedor{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-imagen{
+        height: 15rem;
+        width: 25rem;
+    }
+
+    .margen-b{
+
+    }
+    .margen-g{
+        margin-top: 82rem!important;
+    }
+    .margen-m{
+        margin-top: 322rem!important;
+    }
+    .margen-n{
+        margin-top: 92rem!important;
+    }
+
+    .margen-p div{
+        margin: 2rem;
+    }
+    .margen-q{
+        margin-top: 275rem!important;
+    }
+    
+
+}
+
+@media(max-width:555px){
+    .div-imagen{
+        height: 15rem;
+        width: 20rem;
     }
 }
 

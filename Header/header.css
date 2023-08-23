@@ -18,7 +18,8 @@ header{
 .div-header{
     display: flex;
     justify-content: space-around;  
-    background-color: #232323;;
+    background-color: #232323;
+    padding: 10px 0;
 }
 
 .div-menu-header ul {
@@ -136,6 +137,9 @@ header {
 .div-menu-header li{
     margin: 0 10px;
     padding: 20px;
+}
+ul{
+    margin-bottom: 0!important;
 }
 
 @media(max-width: 768px){

@@ -44,3 +44,33 @@ span{
 footer {
     margin-top: 70rem; /* Ajusta el valor según sea necesario */
 }
+
+@media(max-width:720px){
+    .div-header-contacto p{
+        display:none;
+    }
+
+    .div-header-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-header-contacto a{
+        margin: 5px;
+    }
+    .div-nombre-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div-nombre-footer p{
+        font-size: 10px;
+    }
+
+    .div-nombre-footer{
+        margin: 1rem;
+    }
+}
